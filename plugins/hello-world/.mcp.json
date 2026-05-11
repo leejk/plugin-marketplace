@@ -1,20 +1,19 @@
 {
   "mcpServers": {
     "time": {
-      "command": "/home/leejk/.local/bin/uv",
+      "command": "wsl.exe",
       "args": [
-        "tool",
-        "run",
-        "mcp-server-time==0.6.2",
-        "--local-timezone=Asia/Seoul"
+        "bash",
+        "-c",
+        "~/.local/bin/uv tool run mcp-server-time==0.6.2 --local-timezone=Asia/Seoul"
       ]
     },
     "fetch": {
-      "command": "/home/leejk/.local/bin/uv",
+      "command": "wsl.exe",
       "args": [
-        "tool",
-        "run",
-        "mcp-server-fetch==2025.4.7"
+        "bash",
+        "-c",
+        "~/.local/bin/uv tool run mcp-server-fetch==2025.4.7"
       ]
     }
   }
