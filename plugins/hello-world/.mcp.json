@@ -2,7 +2,7 @@
   "mcpServers": {
     "time": {
       "type": "stdio",
-      "command": "uvx",
+      "command": "/home/leejk/.local/bin/uvx",
       "args": [
         "mcp-server-time==0.6.2",
         "--local-timezone=Asia/Seoul"
@@ -10,7 +10,7 @@
     },
     "fetch": {
       "type": "stdio",
-      "command": "uvx",
+      "command": "/home/leejk/.local/bin/uvx",
       "args": [
         "mcp-server-fetch==2025.4.7"
       ]
