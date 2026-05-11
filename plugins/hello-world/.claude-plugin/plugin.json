@@ -1,0 +1,11 @@
+{
+  "name": "hello-world",
+  "version": "0.1.0",
+  "description": "Hello World example plugin — a learning starter that bundles a slash command, an agent, and a skill",
+  "author": {
+    "name": "Seungjoon Lee",
+    "email": "altoformula@gmail.com"
+  },
+  "homepage": "https://github.com/dimz119/plugin-marketpalce",
+  "keywords": ["example", "starter", "hello-world"]
+}

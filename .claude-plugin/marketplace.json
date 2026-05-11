@@ -1,0 +1,22 @@
+{
+  "name": "my-plugins",
+  "owner": {
+    "name": "Seungjoon Lee",
+    "email": "altoformula@gmail.com"
+  },
+  "description": "Personal Claude Code plugin marketplace",
+  "plugins": [
+    {
+      "name": "hello-world",
+      "source": "./plugins/hello-world",
+      "description": "Hello World example plugin — includes a slash command, an agent, and a skill",
+      "version": "0.1.0",
+      "author": {
+        "name": "Seungjoon Lee",
+        "email": "altoformula@gmail.com"
+      },
+      "category": "example",
+      "keywords": ["example", "starter", "hello-world"]
+    }
+  ]
+}
