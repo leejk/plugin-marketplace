@@ -2,18 +2,27 @@
   "mcpServers": {
     "time": {
       "type": "stdio",
-      "command": "uvx",
+      "command": "wsl",
       "args": [
+        "/home/leejk/.local/bin/uv",
+        "tool",
+        "run",
         "mcp-server-time==0.6.2",
-        "--local-timezone=Asia/Seoul"
-      ]
+        "--local-timezone",
+        "Asia/Seoul"
+      ],
+      "env": {}
     },
     "fetch": {
       "type": "stdio",
-      "command": "uvx",
+      "command": "wsl",
       "args": [
+        "/home/leejk/.local/bin/uv",
+        "tool",
+        "run",
         "mcp-server-fetch==2025.4.7"
-      ]
+      ],
+      "env": {}
     }
   }
 }
