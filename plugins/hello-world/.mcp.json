@@ -1,14 +1,16 @@
 {
    "mcpServers": {
      "time": {
-       "command": "/home/leejk/.local/bin/uv", 
-       "args": [
-         "tool",
-         "run",
-         "mcp-server-time==0.6.2",
-         "--local-timezone=Asia/Seoul"
-       ]
-     },
+        "command": "/home/leejk/.local/bin/uv", 
+        "args": [
+          "tool",
+          "run",
+          "mcp-server-time==0.6.2"
+        ],
+        "env": {
+          "TZ": "Asia/Seoul"
+        }
+      },
      "fetch": {
        "command": "/home/leejk/.local/bin/uv",
        "args": [
